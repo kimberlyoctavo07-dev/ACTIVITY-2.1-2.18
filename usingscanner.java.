@@ -1,0 +1,28 @@
+/* 
+Name: Kimberly B. Octavo
+Course/Section/Year:
+*/
+
+public class UsingScanner {
+    public static void main(String[] args) {
+
+       
+        Scanner input = new Scanner(System.in);
+
+       
+        System.out.print("Kimberly:");
+        String firstName = input.nextLine();
+
+        System.out.print("Bacariza: ");
+        String middleName = input.nextLine();
+
+        System.out.print("Octavo: ");
+        String lastName = input.nextLine();
+
+       
+        System.out.println("\nYour name is: " + firstName + " " + middleName + " " + lastName);
+
+        
+        input.close();
+    }
+}
